@@ -18,7 +18,7 @@ import java.util.Collections;
 public class UserService implements UserDetailsService {
 
     private final UserRepository userRepository;
-    private final PasswordEncoder passwordEncoder; // Düzgün! Yalnız PasswordEncoder inject edilir.
+    private final PasswordEncoder passwordEncoder;
 
     public void register(RegisterRequestDto request) {
         if (userRepository.existsByUsername(request.getUsername())) {

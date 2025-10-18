@@ -6,7 +6,7 @@ spring:
       uri: mongodb://localhost:27017/auth_audit_db
 
 jwt:
-  secret: "my-super-secret-key"
+  secret: "tAvw/Sf8UTYCSf8X0WRfDGBSdYyHVHZ5ldeS25pHzEY="
   expiration: 86400000
 
 logging:
