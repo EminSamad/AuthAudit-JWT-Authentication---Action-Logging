@@ -17,8 +17,6 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 public class SecurityConfig {
 
-    // Artıq UserService konstruktorda inject edilmir.
-    // Dairəvi asılılıq aradan qalxdı.
 
     @Bean
     public PasswordEncoder passwordEncoder() {
