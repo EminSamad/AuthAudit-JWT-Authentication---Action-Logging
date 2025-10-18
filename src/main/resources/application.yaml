@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: AuthAudit
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/auth_audit_db
+
+jwt:
+  secret: "my-super-secret-key"
+  expiration: 86400000
+
+logging:
+  level:
+    root: INFO
+    com.example.authaudit: DEBUG
